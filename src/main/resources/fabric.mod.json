@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "neonvisuals",
+  "version": "${version}",
+  "name": "Neon Visuals",
+  "description": "Client-side visuals: Target HUD, Potion HUD, Item Swap, Hit Particles, Fog, Sword Adjust, White Enchant.",
+  "authors": ["Neon"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.neon.visuals.NeonVisuals"] },
+  "mixins": ["neonvisuals.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
